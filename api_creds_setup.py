@@ -33,7 +33,7 @@ env_file_path = os.environ['HOME'] + '/.bashrc'
 #if Ubuntu or similar, write encrypted token and key to .bashrc
 try:
     if os.path.exists(env_file_path):
-        with open(os.environ['HOME'] + '/.bashrc', mode='a+') as bashrc:
+        with open(env_file_path, mode='a+') as bashrc:
             bashrc.writelines(export_stmts)
             bashrc.close()
 except FileNotFoundError:
