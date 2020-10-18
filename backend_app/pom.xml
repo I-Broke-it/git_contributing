@@ -8,10 +8,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.gitcontributing.backend</groupId>
 	<artifactId>git_contributing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>GitContributingBackend</name>
 	<description>Backend Application for Git_Contributing</description>
 
 	<properties>
